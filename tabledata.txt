@@ -1,0 +1,11 @@
+CREATE TABLE todo(id INTEGER,todo TEXT,priority TEXT,status TEXT);
+ INSERT INTO todo(id,todo,priority,status)
+ VALUES(1,'Learn HTML','HIGH','TO DO')
+ (2,'Learn JS','MEDIUM','DONE')
+ (3,'Learn CSS','LOW','DONE')
+ (4,'Watch Movie','LOW','TO DO')
+ (5,'Learn NodeJS','HIGH','IN PROGRESS')
+ (6,'Play Volleyball','MEDIUM','DONE')
+ (7,'Learn JavaScript','HIGH','DONE')
+ (8,'Finalize event theme','LOW','TO DO');
+ SELECT * from todo;
